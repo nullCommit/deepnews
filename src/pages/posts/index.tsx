@@ -50,6 +50,7 @@ export const getStaticProps: GetStaticProps = async () => {
     }
   );
 
+  // fomatação dos dados
   const posts = response.results.map(post => {
     return {
       slug: post.uid,
