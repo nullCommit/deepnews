@@ -9,10 +9,10 @@ export function Header() {
       <div className={styles.headerContent}>
         <img src='/images/logo.svg' alt='deepnews' />
         <nav>
-          <ActiveLink href='/' activeClassName={styles.active} prefetch>
+          <ActiveLink href='/' activeClassName={styles.active}>
             <a>Home</a>
           </ActiveLink>
-          <ActiveLink href='/posts' activeClassName={styles.active} prefetch>
+          <ActiveLink href='/posts' activeClassName={styles.active}>
             <a>Posts</a>
           </ActiveLink>
         </nav>
